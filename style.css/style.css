@@ -26,7 +26,6 @@ body {
   transition: var(--main-transition) ease-in-out;
 }
 
-
 .container img {
   width: 60px;
   height: 60px;
@@ -546,12 +545,6 @@ body {
   padding-bottom: 50px;
 }
 
-.accordion-flush > .accordion-item,
-.accordion-flush > .accordion-item > .accordion-collapse,
-.accordion-flush > .accordion-item > .accordion-header .accordion-button {
-  border-radius: 20px !important;
-}
-
 .circle-bg {
   border-bottom-left-radius: 200px;
   height: 220px;
@@ -731,15 +724,14 @@ body {
   margin: auto;
   background-color: #682f9a;
 }
-
 @media (max-width: 768px) {
-  .footer{
-    margin-top: 105px
-    ;
+  .footer {
+    margin-top: 105px;
   }
   .services {
-padding-left: 40px; 
-padding-right: 40px; }
+    padding-left: 40px;
+    padding-right: 40px;
+  }
   .main-img {
     height: 300px;
   }
@@ -757,6 +749,8 @@ padding-right: 40px; }
     font-size: 16px;
     width: 70%;
   }
+}
+@media (max-width: 768px) {
   .services .text p {
     font-size: 16px;
     width: 90%;
@@ -778,6 +772,8 @@ padding-right: 40px; }
     width: 100%;
     height: auto;
   }
+}
+@media (max-width: 768px) {
   .contact .circle-bg,
   #circl-boot .circle-bg {
     height: 120px;
@@ -814,14 +810,19 @@ padding-right: 40px; }
     margin: 0;
     width: 100%;
   }
+}
+@media (max-width: 768px) {
   #form-btn {
     width: 100% !important;
     margin: 0 auto;
   }
-  .contact{
+  .contact {
     padding: 15px;
 
-margin: 0;  }
-  
+    margin: 0;
+  }
+  .dropdown-menu .container .row {
+    overflow-y: scroll;
+    height: 60vh;
+  }
 }
-
